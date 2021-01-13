@@ -1,1 +1,1 @@
-.titulo{text-align:center;color:blue}
+.fondotitulo{border:10px solid lightseagreen;background:lightskyblue;margin:20px auto;border-radius:10px 70px 10px;border-style:outset;height:130px;width:600px}.titulo{text-align:center;color:blue;font-size:70px;font-style:inherit;font-family:Cambria,Cochin,Georgia,Times,'Times New Roman',serif}
