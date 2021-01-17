@@ -1,17 +1,79 @@
-.fondotitulo{
-    border: 10px solid lightseagreen;
-    background: lightskyblue;
-    margin: 20px auto ;
-    border-radius: 10px 70px 10px; 
-    border-style:outset;
-    height: 130px;
-    width: 600px;     
+/* aplico color al fondo de la página
+/* body{
+    background-color:rgb(63, 82, 253)
+} */
+body{
+    height: 800px;
+    width: 800px;
+    background: radial-gradient(circle, rgb(47, 67, 248),rgb(0, 0, 0));
+}
 
+.fondotitulo{
+    border: 5px solid lightseagreen;
+    margin: 20px auto;
+    background: rgb(7, 153, 243);
+    border-radius: 170px;
+    border-style: outset;
+    
 }
 .titulo{
     text-align:center;
     color: blue;
-    font-size: 70px;
+    font-size: 50px;
     font-style:inherit;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#header{
+    align-content: center;
+}
+
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+ul li{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display:block;
+}
+
+.nav li ul li{
+    position:relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
