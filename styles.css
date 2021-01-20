@@ -1,43 +1,26 @@
-/* aplico color al fondo de la página
-/* body{
-    background-color:rgb(63, 82, 253)
-} */
 body{
-    height: 800px;
-    width: 800px;
-    background: radial-gradient(circle, rgb(47, 67, 248),rgb(0, 0, 0));
-}
-
-.fondotitulo{
-    border: 5px solid lightseagreen;
-    margin: 20px auto;
-    background: rgb(7, 153, 243);
-    border-radius: 170px;
-    border-style: outset;
-    
+background: #91D7F2;
+background-repeat:no-repeat;
+height: 500px;
 }
 .titulo{
+    font-family: 'Indie Flower', cursive;
     text-align:center;
-    color: blue;
+    color: #F2766B;
     font-size: 50px;
-    font-style:inherit;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-* {
-    padding: 0px;
-    margin: 0px;
+    font-style:italic;
+    margin: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
 
 }
 
-#header{
-    align-content: center;
-}
-
-#header{
-    margin: auto;
-    width: 500px;
-    font-family: Arial, Helvetica, sans-serif;
+.cuadro{
+    padding-top: 0px;
+    margin: 0 auto;
+    width: 450px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 } 
 
 ul li{
@@ -45,19 +28,25 @@ ul li{
 }
 
 .nav li a{
-    background-color: rgb(43, 42, 42);
-    color: white;
+    /* color: #F2766B; */
+    color: black;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+    
+        
 }
 
 .nav li a:hover{
-    background-color: rgb(20, 20, 20);
+    background: #4EA4D9;
+    border-radius: 20px;
+   
 }
 
 .nav > li{
     float: left;
+    background: #F2766B;
+    border-radius: 20px;
 }
 
 .nav li ul{
@@ -65,6 +54,7 @@ ul li{
     position: absolute;
     min-width: 140px;
 }
+
 .nav li:hover > ul{
     display:block;
 }
@@ -72,8 +62,157 @@ ul li{
 .nav li ul li{
     position:relative;
 }
+
 .nav li ul li ul{
     right: -140px;
     top: 0px;
 }
 
+.icono{
+    display: block; 
+    margin: 85px auto;
+    width: 250px;
+    border-radius: 150px;
+    border: solid #F2C438;
+}
+
+.subtitulo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    color:#4EA4D9;
+    text-align: center;
+    margin: -60px;
+}
+.subtitulo:hover{
+    color: #F2766B;
+}
+.icono:hover{
+    border-color: #4EA4D9;
+}
+
+/* _______página Roma ________*/
+.roma{
+    background: #151826;
+    background-repeat:no-repeat;
+    height: 800px;
+}
+.tituloroma{
+    font-family: 'Indie Flower', cursive;
+    text-align:center;
+    color: #9305F2;
+    font-size: 50px;
+    font-style:italic;
+    margin: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.subroma{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #0583F2;
+}
+.subroma:hover{
+    color:#F20530;
+}
+
+.textroma{
+    color: #D97904;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    text-size-adjust: 50px;
+    margin: 20px;    
+}
+.imgroma{   
+    display: block;
+    margin: 10px auto;
+    height: 600px;
+    width: 1200px;
+    border-radius: 30px;
+    border: solid #0583F2;
+}
+.imgroma:hover{
+    border-color:#F20530;    
+}
+
+.botoninicio{
+    border: solid #F20530;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #0583F2;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    
+
+}
+.botoninicio:hover{    
+    background-color: #F20530;    
+}
+
+.divboton{ 
+
+  text-align: center;
+}
+/* _______página venecia ________*/
+.roma{
+    background: #151826;
+    background-repeat:no-repeat;
+    height: 800px;
+}
+.tituloroma{
+    font-family: 'Indie Flower', cursive;
+    text-align:center;
+    color: #9305F2;
+    font-size: 50px;
+    font-style:italic;
+    margin: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.subroma{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #0583F2;
+}
+.subroma:hover{
+    color:#F20530;
+}
+
+.textroma{
+    color: #D97904;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    text-size-adjust: 50px;
+    margin: 20px;    
+}
+.imgroma{   
+    display: block;
+    margin: 10px auto;
+    height: 600px;
+    width: 1200px;
+    border-radius: 30px;
+    border: solid #0583F2;
+}
+.imgroma:hover{
+    border-color:#F20530;    
+}
+
+.botoninicio{
+    border: solid #F20530;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #0583F2;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    
+
+}
+.botoninicio:hover{    
+    background-color: #F20530;    
+}
+
+.divboton{ 
+
+  text-align: center;
+}
